@@ -2,16 +2,20 @@
   "name": "insta-new-app",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://ademiday00.github.io/insta-new-app/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "boostrap": "^2.0.0",
     "bootstrap": "^5.3.7",
+    "gh-pages": "^6.3.0",
     "latest": "^0.2.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
