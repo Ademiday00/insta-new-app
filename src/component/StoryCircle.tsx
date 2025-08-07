@@ -7,8 +7,8 @@ interface Props {
 
 const StoryCircle = ({ users }: Props) => {
   return (
-    <div className="text-center  m-3">
-      <div>
+    <div className="text-center m-3 ">
+      <div className="">
         <img
           src={users.image}
           alt={users.name}
