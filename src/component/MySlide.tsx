@@ -51,7 +51,13 @@ const MySlide = ({ slide }: Props) => {
         <i className="fa-regular fa-bookmark p-3 text-white"></i>
       </div>
       <p className="text-white  m-3 mb-1">
-        {slide.name} <span className=" fw-2 fs-8 mb-1">{slide.caption}</span>
+        {slide.name}{" "}
+        <span
+          className=" fw-2 fs-8 mb-1"
+          style={{ fontSize: "15px", fontWeight: "bolder" }}
+        >
+          {slide.caption}
+        </span>
         <p className="mb-1">{slide.timeAgo}</p>
       </p>
     </>

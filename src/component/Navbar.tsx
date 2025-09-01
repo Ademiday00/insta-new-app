@@ -9,7 +9,10 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar bg-black border-black border-black p-md-1 p-lg-4 pronav  ">
-        <h2 className="mb-0 mx-lg-5 mx-md-5 text-white d-none d-lg-inline">
+        <h2
+          className="mb-0 mx-lg-5 mx-md-5 text-white d-none d-lg-inline"
+          style={{ fontWeight: "bolder" }}
+        >
           Instagram
         </h2>
 
