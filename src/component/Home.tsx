@@ -5,7 +5,7 @@ import AnoSlide from "./AnoSlide";
 
 const Home = () => {
   return (
-    <div className="bg-black  mx-lg-5 mx-md-5">
+    <div className="bg-black  mx-lg-5 mx-md-5 main-content ">
       <Firstpage />
       <Stories />
       <AnoSlide />

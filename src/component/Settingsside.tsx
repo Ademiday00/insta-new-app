@@ -1,11 +1,10 @@
 // import React from "react";
 import { useNavigate } from "react-router-dom";
-import Navbar from "./Navbar";
 
-const SethingsPage = () => {
+const Settingsside = () => {
   const navigate = useNavigate();
   return (
-    <div className="text-white px-3 px-md-4 mx-lg-5 mx-md-5 sethingsPage">
+    <div className="text-white px-3 px-md-4 mx-lg-5 mx-md-5">
       <div className="d-flex justify-content-between align-items-center m-3 gap-4  mx-lg-5 mx-md-5">
         <i
           className=" fas fa-angle-left fs-3 position-absolute"
@@ -131,9 +130,8 @@ const SethingsPage = () => {
           </div>
         </div>
       </div>
-      <Navbar />
     </div>
   );
 };
 
-export default SethingsPage;
+export default Settingsside;

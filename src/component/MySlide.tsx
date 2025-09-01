@@ -14,7 +14,7 @@ interface Props {
 const MySlide = ({ slide }: Props) => {
   return (
     <>
-      <div className="d-flex justify-content-between m-3 mx-lg-5 mx-md-5 ">
+      <div className="d-flex justify-content-between m-3 mx-md-5 ">
         <div className="">
           <img
             src={slide.image}

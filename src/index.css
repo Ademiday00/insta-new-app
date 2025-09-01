@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Trirong");
 * {
   margin: 0;
   padding: 0;
+  font-family: "Trirong", sans-serif;
+  background-color: #000;
 }
 body,
 html {
@@ -18,5 +21,27 @@ html {
   html {
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-content {
+    margin-left: 200px; /* Match your sidebar width */
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 75%;
+    padding: 17px;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1280px) {
+  .main-content {
+    width: 80%;
+    padding: 17px;
+  }
+  .frontawes {
+    display: none;
+  }
+  .picturepp {
   }
 }
