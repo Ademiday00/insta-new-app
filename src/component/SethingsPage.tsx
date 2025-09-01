@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 const SethingsPage = () => {
   const navigate = useNavigate();
   return (
-    <div className="text-white px-3 px-md-4 mx-lg-5 mx-md-5 sethingsPage">
+    <div className="text-white px-3 px-md-4 mx-lg-5 mx-md-5 sethingsPage main-content">
       <div className="d-flex justify-content-between align-items-center m-3 gap-4  mx-lg-5 mx-md-5">
         <i
           className=" fas fa-angle-left fs-3 position-absolute"
@@ -13,9 +13,9 @@ const SethingsPage = () => {
         ></i>
         <p className="ms-5 mb-1">Settings and activity</p>
       </div>
-      <div className="input-group p-2  mx-lg-5 mx-md-5">
+      <div className="input-group p-2  mx-lg-2 mx-md-5">
         <span className="input-group-text bg-white border-end-0">
-          <i className="fas fa-search"></i>
+          <i className="fas fa-search bg-white"></i>
         </span>
         <input
           type="search"
